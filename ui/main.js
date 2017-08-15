@@ -10,5 +10,5 @@ var img = document.getElementById('madi');
 
 img.onClick = function(){
     
-img.style.marginLeft ='100px'
+document.getElementById('madi').style.marginLeft = '200px'
 }
