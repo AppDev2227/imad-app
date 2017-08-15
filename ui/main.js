@@ -5,7 +5,7 @@ element.innerHTML='New Value';
 
 
 //Move the image
-alert(document.getElementById("myDiv").style.marginLeft);
+alert(document.getElementById("img").style.marginLeft);
 var img = document.getElementById("madi");
 var marginLeft = 0;
 function moveRight()
