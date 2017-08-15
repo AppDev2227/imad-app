@@ -5,8 +5,7 @@ element.innerHTML='New Value';
 
 
 //Move the image
-
-
+window.onload= alert(document.getElementById('madi').style.marginLeft);
 var img = document.getElementById('madi');
 var marginLeft = 0;
 
