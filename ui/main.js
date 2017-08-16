@@ -20,7 +20,11 @@ img.onClick = function() {
 
 
 
-
+var bButton = document.getElementById ('counter');
+bButton.onClick = function(){
+    var counter= counter + 1 ;
+    
+};
 
 /*var img = document.getElementById("madi");
     var marginLeft = 0;
