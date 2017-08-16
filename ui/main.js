@@ -20,5 +20,5 @@ var img = document.getElementById("madi");
             marginLeft += 10;
             img.style.marginLeft = marginLeft.toString() + "px";
         } , 100)
-    }
+    };
 }
