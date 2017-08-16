@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 //change the text of main-text div
 var element= document.getElementById('main-text');
 element.innerHTML='New Value';
@@ -17,14 +17,8 @@ img.onClick = function() {
     var interval =setInterval(moveRight,100);
 };
 //document.getElementById('madi').style.marginLeft = '200px'
+*/
 
-
-
-var bButton = document.getElementById ('counter');
-bButton.onClick = function(){
-    var counter= counter + 1 ;
-    
-};
 
 /*var img = document.getElementById("madi");
     var marginLeft = 0;
@@ -34,4 +28,52 @@ bButton.onClick = function(){
         img.style.marginLeft = marginLeft.toString() + "px";
         } , 100);
     };*/
-}
+}*//
+
+//=======================================================================
+//Counter code
+var bButton = document.getElementById ('counter');
+var counter =0;
+
+bButton.onClick = function(){
+   //Make a request to the counter endpoint
+   
+   
+   //capture the response and store it in a variable
+   
+   //Render the variable in the correct span
+   counter = counter + 1;
+   var span = document.getElementById('span');
+   span.innerHTML = counter.toString();
+    
+};  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
