@@ -1,4 +1,4 @@
-/*console.log('Loaded!');
+console.log('Loaded!');
 //change the text of main-text div
 var element= document.getElementById('main-text');
 element.innerHTML='New Value';
@@ -16,8 +16,10 @@ function moveRight(){
 img.onClick = function() {
     var interval =setInterval(moveRight,100);
 };
+
+
 //document.getElementById('madi').style.marginLeft = '200px'
-*/
+
 
 
 /*var img = document.getElementById("madi");
@@ -32,7 +34,7 @@ img.onClick = function() {
 
 //=======================================================================
 //Counter code
-var button = document.getElementById('counter');
+/*var button = document.getElementById('counter');
 var counter = 0;
 
 button.onClick = function(){
@@ -47,7 +49,7 @@ button.onClick = function(){
    span.innerHTML = counter.toString();
     
 };  
-
+*/
 
 
 
