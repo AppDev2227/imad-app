@@ -28,7 +28,7 @@ img.onClick = function() {
         img.style.marginLeft = marginLeft.toString() + "px";
         } , 100);
     };*/
-}*//
+
 
 //=======================================================================
 //Counter code
