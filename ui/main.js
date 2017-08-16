@@ -20,7 +20,7 @@ img.onClick = function() {
 };
 
 
-document.getElementById('madi').style.marginLeft = '200px'
+//document.getElementById('madi').style.marginLeft = '200px'
 
 
 
