@@ -8,7 +8,7 @@ element.innerHTML='New Value';
 
 var img = document.getElementById('madi');
 alert('im java Script');
-alert(img)
+alert(img);
 var marginLeft =0;
 function moveRight(){
     marginLeft=marginLeft + 10;
