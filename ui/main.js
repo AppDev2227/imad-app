@@ -32,10 +32,10 @@ img.onClick = function() {
 
 //=======================================================================
 //Counter code
-var bButton = document.getElementById ('counter');
+var button = document.getElementById ('counter');
 var counter =0;
 
-bButton.onClick = function(){
+button.onClick = function(){
    //Make a request to the counter endpoint
    
    
