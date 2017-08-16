@@ -139,3 +139,9 @@ var port = 80;
 app.listen(port, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+
+app.get('/favicon.ico', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
+
+});
