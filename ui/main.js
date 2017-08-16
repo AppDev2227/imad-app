@@ -19,6 +19,6 @@ var img = document.getElementById("madi");
         setInterval( function() {
             marginLeft += 10;
             img.style.marginLeft = marginLeft.toString() + "px";
-        } , 100)
+        } , 100);
     };
 }
