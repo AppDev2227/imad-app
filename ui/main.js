@@ -16,7 +16,8 @@ function moveRight(){
     
 }
 img.onClick = function() {
-    var interval =setInterval(moveRight,200);
+document.getElementById('madi').style.marginLeft = '200px'
+//var interval =setInterval(moveRight,200);
 };
 
 
