@@ -8,7 +8,7 @@ element.innerHTML='New Value';
 
 var img = document.getElementById('madi');
 
-alert(img);
+//alert(img);
 var marginLeft =0;
 function moveRight(){
     marginLeft=marginLeft + 10;
@@ -18,6 +18,7 @@ function moveRight(){
 img.onClick = function() {
     var interval =setInterval(moveRight,200);
 };
+
 
 
 //document.getElementById('madi').style.marginLeft = '200px'
