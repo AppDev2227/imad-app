@@ -9,8 +9,9 @@ element.innerHTML = ' New Value ONE ';
 
 // Move the image
 
+alert('im outside function');
 var img = document.getElementById('madi');
-img.onClick = function(){
+img.onClick = function() {
     alert ('im inside function now');
     alert (img);
     
