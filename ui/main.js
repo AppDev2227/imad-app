@@ -11,6 +11,8 @@ element.innerHTML = ' New Value ONE ';
 
 var img = document.getElementById('madi');
 img.onClick = function(){
+    alert ('im inside function now');
+    alert (img);
     
   img.style.marginLeft = '100px';  
 };
