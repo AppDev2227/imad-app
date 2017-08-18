@@ -14,7 +14,7 @@ var img = document.getElementById('madi');
 var marginRight = 0;
 
 function moveRight(){
-    marginLeft = margingLeft + 10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft +'px';
 }
 img.onclick = function() {
