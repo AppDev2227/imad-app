@@ -9,11 +9,14 @@ element.innerHTML = ' New Value ONE ';
 
 // Move the image
 
-
+function moveRight(){
+    marginLeft = margingLeft + 10;
+    img.style.marginLeft = marginLeft +'px';
+}
 var img = document.getElementById('madi');
 img.onclick = function() {
    
-   // var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight,100);
     
-  img.style.marginRight = '200px';  
+
 };
