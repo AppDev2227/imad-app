@@ -13,6 +13,6 @@ element.innerHTML = ' New Value ONE ';
 var img = document.getElementById('madi');
 img.onclick = function() {
    
-    
+    var interval = setInterval(moveLeft,100);
   img.style.marginLeft = '200px';  
 };
