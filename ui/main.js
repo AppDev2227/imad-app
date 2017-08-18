@@ -14,5 +14,5 @@ img.onClick = function(){
     alert ('im inside function now');
     alert (img);
     
-  img.style.marginLeft = '100px';  
+  img.style.marginLeft = '200px';  
 };
