@@ -61,7 +61,10 @@ submit.onclick = function(){
                 ul.innerHTML = list;
           }
       }
-  }  
+  };  
+  //Make a request to counter endpoint
+  request.open('GET','http://deepaliwarade.imad.hasura-app.io/submit-name?name=' + name,true);
+  request.send(null);
 };
 
 
