@@ -1,29 +1,30 @@
 //counter code
 
 var button = document.getElementById('counter');
-var counter= 0;
+
 button.onclick = function() {
     
-  // Make a request to counter endpoint
+  // Create the request object
   var request = new XMLHttpRequest();
   
   
   //capture the response and store it in a variable
   
-  request.onreadystatechange = funtion (){
+  request.onreadystatechange = function () {
       if(request.readyState === XMLHttpRequest.DONE){
           // Take some action
-          if(request.status ==200){
-              
+          if(request.status ===200){
+                var counter = request.responseText;
+                var span = document.getElementById('count');
+                span.innerHTML = counter.toString();
+    
           }
       }
       
   };
-  //Render the variable in the correct span
+  //Make a request to counter endpoint
+  request.open('GET','http://deepaliwarade.imad.hasura-app.io/',true);
+  request.send(null);
   
   
-  counter= counter + 1;
-  var span = document.getElementById('count');
-  span.innerHTML = counter.toString();
-    
 };
