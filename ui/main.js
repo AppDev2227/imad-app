@@ -23,7 +23,7 @@ button.onclick = function() {
       
   };
   //Make a request to counter endpoint
-  request.open('GET','http://deepaliwarade.imad.hasura-app.io/',true);
+  request.open('GET','http://deepaliwarade.imad.hasura-app.io/counter',true);
   request.send(null);
   
   
