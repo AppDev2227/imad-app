@@ -7,9 +7,9 @@ var config ={
     user: 'deepaliwarade',
     database : 'deepaliwarade',
     host: 'db.imad.hasura-app.io',
-    post : '5432'
+    post : '5432',
     password : process.env.DB_PASSWORD    
-}
+};
 
 var app = express();
 app.use(morgan('combined'));
