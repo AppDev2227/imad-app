@@ -124,8 +124,9 @@ app.get('/', function (req, res) {
          }else {
              res.send(JSON.stringify(result.rows));
          }
-     })
- })
+     });
+ });
+ 
  var counter=0;
 app.get('/counter', function(req,res){
     counter= counter + 1;
