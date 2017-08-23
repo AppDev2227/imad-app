@@ -146,13 +146,13 @@ app.get( '/submit-name', function(req,res) {  //URL : /submit-name?name=xxx
    res.send(JSON.stringify(names));  // T123
 });
 
-app.get('articles/:articleName', function (req, res) {
+app.get('/articles/:articleName', function (req, res) {
     //articleName = article-one
     //articles[articleName]= {} content objecct for article one
    
    
    // SELECT * FROM article WHERE title = 'article-one'
-   pool.query("SELECT * FROM article WHERE title = '"+ req.params.articleName+"'" , function(err,result){
+   pool.query("SELECT * FROM article WHERE title = '"+ req.params.articleName + "'" , function(err,result){
        if(err){
            res.status(500).send(err.toString());
        } else {
