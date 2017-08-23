@@ -149,7 +149,7 @@ app.get( '/submit-name', function(req,res) {  //URL : /submit-name?name=xxx
 app.get('articles/:articleName', function (req, res) {
     //articleName = article-one
     //articles[articleName]= {} content objecct for article one
-   var articleName= req.params.articleName;
+   
    
    // SELECT * FROM article WHERE title = 'article-one'
    pool.query("SELECT * FROM article WHERE title = '"+ req.params.articleName+"'" , function(err,result){
