@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     margin-top: 60px;
-    background: red;
+    
 }
 
 
@@ -20,7 +20,9 @@ body {
 .img-medium {
     height: 200px;
 }
-
+h3 {
+  text-decoration: underline;
+}
 .container
 {
     max-width: 900px;
