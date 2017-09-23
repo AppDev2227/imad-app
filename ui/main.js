@@ -35,6 +35,8 @@ button.onclick = function() {
 */
 // Submit Username / password to login
 
+
+alert('hello, im javasript');
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     //Make a request to the server and send the name
